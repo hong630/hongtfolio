@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html:lang(ko) body {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.wrap{
+    width: 80vw;
+    height: auto;
+    color: #96192b;
+    padding-top: 78px;
+    margin: auto;
+}
+.header{
+    width: inherit;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+h1, h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+.contact-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.about-me{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.description{
+    width: 50%;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: ;
+}
