@@ -92,8 +92,8 @@ h1, h2{
 }
 .description-detail h3{
     font-size: 18px;
-    font-weight: 500;
     text-decoration: underline;
+    font-weight: 700;
 }
 .description-detail .detail-container{
     font-size: 12px;
